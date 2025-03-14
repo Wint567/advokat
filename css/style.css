@@ -471,7 +471,7 @@ main .info .accordion-content--text {
   padding-bottom: 10px;
 }
 main .info .active .accordion-content {
-  max-height: 640px;
+  max-height: 800px;
   padding: 15px;
 }
 
