@@ -108,7 +108,7 @@
     margin-top: 10px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   main .services_title {
     padding-top: 30px !important;
     font-size: 30px !important;
