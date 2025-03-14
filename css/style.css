@@ -6,6 +6,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .family .color img {
+    padding-right: 0px !important;
+  }
   .family .color .family_info {
     display: -webkit-box;
     display: -ms-flexbox;

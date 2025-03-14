@@ -3,6 +3,10 @@
         .color{
             flex-direction: column;
 
+            & img{
+                padding-right: 0px !important;
+            }
+
             .family_info{
                 display: flex;
                 flex-direction: column;
