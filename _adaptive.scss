@@ -1,0 +1,163 @@
+@media (max-width: 890px) {
+    .family{
+        .color{
+            flex-direction: column;
+
+            .family_info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .family_info--title{
+                    text-align: center;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+
+                .family_info--text{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    header{
+        .header_container{
+
+            .header_container--content{
+                align-items: flex-end !important;
+                flex-direction: column;
+
+                .header_container--content--number{
+                    margin-bottom: 15px;
+                }
+
+                .header_container--content--button{
+                    padding: 10px 15px !important;
+                }
+            }
+        }
+    }
+    
+    main{
+        .services{
+            &_title{
+                font-size: 38px !important;
+            }
+
+            &_container{
+                grid-template-columns: 1fr 1fr !important;
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 670px) {
+    footer{
+        .footer_color{
+            flex-direction: column;
+            align-items: center;
+
+            .footer_container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .footer_content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+
+        .header_container{
+            flex-direction: column;
+            padding-bottom: 0px !important;
+            padding-top: 5px !important;
+
+            .header_container--content{
+                margin-top: 10px;
+                align-items: center !important;
+                flex-direction: column-reverse;
+
+                .header_container--content--number{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        .services{
+            &_title{
+                padding-top: 30px !important;
+                font-size: 30px !important;
+                margin-bottom: 30px !important;
+            }
+
+            &_container{
+                &--title{
+                    font-size: 22px !important;
+                }
+
+                &--text{
+                    font-size: 16px !important;
+                }
+            }
+        }
+
+        .family{
+            padding: 25px 0 !important;
+            .color{
+                & img{
+                    max-width: 300px;
+                    padding-right: 0 !important;
+                }
+
+                .family_info{
+                    .family_info--title{
+                        font-size: 30px !important;
+                        line-height: 35px !important;
+                    }
+
+                    .family_info--text{
+                        font-size: 18px !important;
+                    }
+
+                    .family_info--container{
+                        .family_info--container--content{
+                            .family_info--container--content--title{
+                                font-size: 16px !important;
+                            }
+                            .family_info--container--content--text{
+                                font-size: 14px !important;
+                                line-height: 22px !important;
+                                align-items: center !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .info{
+            &_title{
+                font-size: 30px !important;
+                padding-top: 30px !important;
+            }
+        }
+    }
+}
