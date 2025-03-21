@@ -1,3 +1,68 @@
+@media (max-width: 1260px) {
+    footer {
+
+        .footer_container--info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer_content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+    }  
+}
+
+@media (max-width: 1180px) {
+    .outsourcing{
+
+        &_container{
+            flex-direction: column-reverse;
+
+            &--info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                &--title{
+                    text-align: center;
+                }
+    
+                &--text{
+                    text-align: center;
+                }
+            }
+    
+            &--img{
+                margin-bottom: 15px;
+            }
+    
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    header{
+        .header_container{
+
+            .header_container--content{
+                align-items: flex-end !important;
+                flex-direction: column;
+
+                .header_container--content--number{
+                    margin-bottom: 15px;
+                }
+
+                .header_container--content--button{
+                    padding: 10px 15px !important;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 890px) {
     .family{
         .color{
@@ -24,29 +89,10 @@
             }
         }
     }
+
 }
 
-
 @media (max-width: 768px) {
-
-    header{
-        .header_container{
-
-            .header_container--content{
-                align-items: flex-end !important;
-                flex-direction: column;
-
-                .header_container--content--number{
-                    margin-bottom: 15px;
-                }
-
-                .header_container--content--button{
-                    padding: 10px 15px !important;
-                }
-            }
-        }
-    }
-    
     main{
         .services{
             &_title{
@@ -62,7 +108,7 @@
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 730px) {
     footer{
         .footer_color{
             flex-direction: column;
@@ -72,6 +118,9 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                padding-right: 0 !important;
+                width: 100% !important;
+                margin-bottom: 30px;
             }
             .footer_content{
                 display: flex;
@@ -155,12 +204,82 @@
                     }
                 }
             }
+            
         }
 
         .info{
             &_title{
                 font-size: 30px !important;
                 padding-top: 30px !important;
+            }
+        }
+
+        .outsourcing{
+            &_container{
+
+                & img{
+                    width: 100% !important;
+                    padding-right: 0 !important;
+                }
+    
+                &--info{
+                    &--title{
+                        font-size: 30px !important;
+                        line-height: 35px !important;
+                    }
+    
+                    &--text{
+                        font-size: 18px !important;
+                        line-height: 22px !important;
+                    }
+
+                    &--content {
+    
+                        &--container{
+                            width: 100%;
+    
+                            &--education{
+                                &--title{
+                                    font-size: 16px !important;
+                                }
+    
+                                &--text{
+                                    font-size: 14px !important;
+                                    line-height: 22px !important;
+                                }
+                            }
+    
+                            &--skills{
+                                &--title{
+                                    font-size: 16px !important;
+                                }
+                                &--p{
+                                    font-size: 14px !important;
+                                    line-height: 22px !important;
+                                }
+                            }
+                        }
+    
+                        &--experience{
+                            width: 100% !important;
+
+                            padding-right: 0 !important;
+    
+                            &--title{
+                                font-size: 16px !important;
+                            }
+    
+                            &--text{
+                                font-size: 14px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                    }
+    
+                    &--button{
+                        margin-top: 15px !important;
+                    }
+                }
             }
         }
     }
